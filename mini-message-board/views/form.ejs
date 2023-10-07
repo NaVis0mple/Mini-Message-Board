@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <a href="/">home</a>
+    <form method="POST" action="/new">
+      <input type="text" name="author" placeholder="author">
+      <input type="text" name="message" placeholder="message">
+      <button type="submit">submit</button>
+   </form>
+  </body>
+</html>
