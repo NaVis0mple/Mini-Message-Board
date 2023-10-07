@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+
+    "start1": "node ./bin/www",
     "start": "nodemon ./bin/www",
     "s": "DEBUG=mini-message-board:* npm start",
     "lint": "npx standard --fix"
